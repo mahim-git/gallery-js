@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Poppins:wght@300;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="img-container">
+            <img src="./img/daria-prev.jpg" alt="This is Daria" data-fullsize="./img/daria-full.jpg">
+        </div>
+        <div class="img-container">
+            <img src="./img/kovi-prev.jpg" alt="This is Kovi" data-fullsize="./img/kovi-full.jpg">
+        </div>
+        <div class="img-container">
+            <img src="./img/shev-prev.jpg" alt="Shev it is" data-fullsize="./img/shev-full.jpg">
+        </div>
+        <div class="img-container">
+            <img src="./img/trang-prev.jpg" alt="This is Trang" data-fullsize="./img/trang-full.jpg">
+        </div>
+    </div>
+    <div class="modal">
+        <h3 class="close">X</h3>
+        <img src="./img/daria-full.jpg" alt="" class="zoom-img">
+        <p class="caption">Caption</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
